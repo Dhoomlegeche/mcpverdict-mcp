@@ -1,7 +1,7 @@
 import { NodeHtmlMarkdown } from "node-html-markdown";
 
 export const BASE_URL = (process.env.MCPVERDICT_BASE_URL ?? "https://mcpverdict.com").replace(/\/$/, "");
-const USER_AGENT = "mcpverdict-mcp/0.1 (+https://mcpverdict.com)";
+const USER_AGENT = "mcpverdict-mcp/0.2 (+https://mcpverdict.com)";
 const CACHE_TTL_MS = 30 * 60 * 1000;
 
 export type GuideKind = "setup" | "client" | "comparison";

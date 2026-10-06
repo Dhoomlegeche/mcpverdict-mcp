@@ -1,6 +1,6 @@
 {
   "name": "mcpverdict-mcp",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "MCP server for MCP Verdict: independent, source-reviewed evaluations of MCP servers, clients and setup guides.",
   "main": "dist/index.js",
   "scripts": {
